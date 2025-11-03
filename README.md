@@ -1,8 +1,8 @@
-# React Cursor Cat 
+# React Cursor Cat
+
+# [Live Demo](https://react-cursor-catt.netlify.app/)
 
 > A simple React component that adds the classic `oneko.js` cat to your website. The cat will chase your mouse cursor around the screen, bringing nostalgic fun to your React projects.
-
-
 
 [![npm version](https://img.shields.io/npm/v/react-cursor-cat.svg)](https://www.npmjs.com/package/react-cursor-cat)
 [![npm downloads](https://img.shields.io/npm/dm/react-cursor-cat.svg)](https://www.npmjs.com/package/react-cursor-cat)
@@ -43,11 +43,10 @@ yarn add react-cursor-cat
 
 Import the component into your React app and use it anywhere:
 
-
 That's it! The cat will now follow your mouse cursor across the screen.
 
 ```jsx
-import Oneko from 'react-cursor-cat';
+import Oneko from "react-cursor-cat";
 
 function App() {
   return (
@@ -59,12 +58,12 @@ function App() {
 }
 ```
 
-
 ---
 
 ## 🛠️ How It Works
 
 The component uses React's `useEffect` hook to:
+
 1. Create the cat sprite element on component mount
 2. Add mouse movement event listeners
 3. Update the cat's position and animation based on cursor movement
@@ -77,7 +76,6 @@ This ensures proper integration with React's lifecycle and prevents memory leaks
 ## 📖 Examples
 
 ### Basic Usage
-
 
 ```jsx
 import Oneko from "react-cursor-cat";
@@ -95,7 +93,6 @@ function App() {
 }
 
 export default App;
-
 ```
 
 ---
@@ -103,6 +100,7 @@ export default App;
 ## 🌐 Browser Compatibility
 
 Works in all modern browsers that support:
+
 - React 16.8+ (Hooks)
 
 ---
@@ -131,4 +129,3 @@ MIT © [Habibullah Md Asif]
 If you like this project, please consider giving it a ⭐️ on [GitHub](https://github.com/asif10h/react-cursor-cat)!
 
 ---
-
